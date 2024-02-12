@@ -1,0 +1,67 @@
+<!-- brought to you by Malibongwe Makhubo. 
+     thank you Dr Angela Yu -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* red background */
+    .flag{
+      background-color: #ce1126;
+      color: white;
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    /* blue part */
+    .flag > div{
+      background-color: #062767;
+      width: 100%;
+      height: 300px;
+      position: absolute;
+      top: 150px
+    }
+
+    /* white circle center */
+    .flag > div > div{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: white;
+      color: black;
+      position: relative;
+      top: 50px;
+      left: 350px;
+
+    }
+
+    p{
+      margin: 0px;
+      text-align: center;
+      font-size: 75px;
+    }
+
+    /* .flag > div > div > p {
+      color: black;
+    } */
+
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
